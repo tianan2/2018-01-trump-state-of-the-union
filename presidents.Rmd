@@ -1,0 +1,19 @@
+---
+title: "Untitled"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+library(stringr)
+library(lubridate)
+
+sou <- read_csv("data/sou.csv")
+presidents <- read_csv("data/presidents.csv")
+
+```
+
